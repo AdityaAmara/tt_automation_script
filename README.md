@@ -20,16 +20,13 @@ This is a small script written in python to automate the class login for student
 33 chromedriver_path =  "/usr/local/bin/chromedriver"
 
 39 options.add_argument("user-data-dir=/path_to_Chrome_Profile")
-
 ```
 
 3. Add your BB Login credentials in script.py.
 ```
-55        driver.find_element_by_id("user_id").send_keys("SAP@stu.upes.ac.in")
+55    driver.find_element_by_id("user_id").send_keys("SAP@stu.upes.ac.in")
 
 56    driver.find_element_by_id("password").send_keys("SAP_PASSWORD")
- 
-
 ```
 
 4. Configure the paths inside class.sh as well.
