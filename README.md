@@ -17,9 +17,9 @@ This is a small script written in python to automate the class login for student
 2. Download the files from the repositry and add the paths of chromedriver and Chrome_Profile directory in script.py
 
 ```
-33  chromedriver_path =  "/usr/local/bin/chromedriver"
+33   chromedriver_path =  "/usr/local/bin/chromedriver"
 
-39  options.add_argument("user-data-dir=/path_to_Chrome_Profile")
+39   options.add_argument("user-data-dir=/path_to_Chrome_Profile")
 ```
 
 3. Add your BB Login credentials in script.py.
